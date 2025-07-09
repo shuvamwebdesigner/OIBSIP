@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>To-Do List Web App</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <h1>To-Do List Web App</h1>
+  <div class="container">
+    <div class="form-section">
+      <form id="taskForm">
+        <input type="text" id="taskTitle" placeholder="Title" required />
+        <textarea id="taskDesc" placeholder="Description" required></textarea>
+        <button type="submit" id="saveBtn">Save</button>
+      </form>
+    </div>
+    <div class="lists-container-vertical">
+      <div class="list-section">
+        <h2>Pending Tasks</h2>
+        <table>
+          <thead>
+            <tr>
+              <th>Title</th>
+              <th>Description</th>
+              <th>Created At</th>
+              <th>Actions</th>
+            </tr>
+          </thead>
+          <tbody id="pendingTasks">
+            <!-- Pending tasks go here -->
+          </tbody>
+        </table>
+      </div>
+      <div class="list-section">
+        <h2>Completed Tasks</h2>
+        <table>
+          <thead>
+            <tr>
+              <th>Title</th>
+              <th>Description</th>
+              <th>Created At</th>
+              <th>Completed At</th>
+              <th>Actions</th>
+            </tr>
+          </thead>
+          <tbody id="completedTasks">
+            <!-- Completed tasks go here -->
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>

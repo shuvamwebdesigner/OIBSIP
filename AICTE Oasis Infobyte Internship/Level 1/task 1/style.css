@@ -1,0 +1,285 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+body {
+  font-family: 'Segoe UI', sans-serif;
+  line-height: 1.6;
+  color: #1a1a1a;
+  background-color: #fff;
+}
+/* Navbar */
+
+.navbar {
+  padding: 0 2rem;
+}
+
+.nav-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+}
+
+.logo img {
+  width: 110px;
+  height: 25px;
+}
+
+.language-select {
+  display: flex;
+  align-items: center;
+  gap: 0.3rem;
+  padding-right: 5rem;
+}
+
+.language-select select {
+  padding: 0.25rem;
+  border: none;
+  background-color: transparent;
+  font-size: 0.9rem;
+}
+
+
+.container {
+  width: 100%;
+  /* max-width: 1200px; */
+  margin: auto;
+}
+
+.hero {
+  background-image: url('images/headerBackground.jpeg');
+  background-size: 100% 100%;
+  width: 100%;
+  height: 70vh;
+  background-repeat: no-repeat;
+  padding: 1.5rem 0;
+  text-align: center;
+}
+
+.hero h1 {
+  font-size: 2.5rem;
+  color: #0a0a0a;
+}
+
+.hero p {
+  margin: 1rem 0;
+  font-weight: bold;
+  font-size: 1rem;
+  color: #444;
+}
+
+.hero span {
+  font-weight: bold ;  
+  margin: 1rem 0;
+  font-size: 0.5rem;
+  color: #444;
+  text-transform: uppercase;
+}
+
+.btn {
+  display: inline-block;
+  padding: 0.75rem 1.5rem;
+  background: #007a5c;
+  color: #fff;
+  border-radius: 30px;
+  text-decoration: none;
+  font-weight: bold;
+  transition: background 0.3s;
+}
+
+.btn:hover {
+  background: #005a43;
+}
+
+.image {
+  height: 100%;
+  width: 40%;
+}
+
+.image img {
+  display: block;
+  width: 60%;
+  height: 100%;
+  margin: auto;
+}
+
+.content {
+  margin: auto;
+  text-align: left;
+  /* padding-right: 2rem; */
+}
+
+.favicon {
+  padding-bottom: 1rem;
+  /* padding-right: 1.5rem; */
+}
+
+.favicon button {
+  padding: 0.2rem;
+  margin-right: 0.2rem;
+  font-size: small;
+}
+
+.padding-button2 {
+  padding-bottom: 2rem;
+  a {
+    font-weight: bold;
+    color: #007a5c;
+  }
+}
+
+.features {
+  padding: 0 3rem;
+  background: #fff;
+}
+
+.benefits {
+  padding: 3rem;
+  background: #fff;
+}
+
+.features .feature{
+  display: flex;
+  padding: 1.5rem;
+  border-radius: 12px;
+  text-align: center;
+  column-gap: 2rem;
+}
+
+.benefit img {
+  display: block;
+  width: 50%;
+  height: 50%;
+  margin: auto;
+}
+
+.benefits .benefit {
+  background: #f5f5f5;
+  padding: 1.5rem;
+  border-radius: 12px;
+  flex: 1 1 250px;
+  margin: 1rem;
+  text-align: center;
+}
+
+.benefits {
+  text-align: center;
+  a {
+    font-weight: bold;
+    color: #007a5c;
+  }
+}
+
+.features h2, .benefits h3 {
+  color: #0a0a0a;
+  margin-bottom: 0.5rem;
+}
+
+.grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+  justify-content: space-between;
+}
+
+.servers {
+  background: #fceef0;
+  text-align: center;
+  padding: 2rem 1rem;
+}
+
+.servers h2 {
+  font-size: 2rem;
+}
+
+.servers .container img {
+  height: 40%;
+  width: 80%;
+  padding-left: 2rem;
+}
+
+.servers .container {
+  display: flex;
+  align-items: center;
+}
+
+.stats {
+  display: flex;
+  justify-content: center;
+  /* flex-wrap: wrap; */
+  flex-direction: column;
+  gap: 2rem;
+
+}
+
+.stats h3 {
+  font-size: 2rem;
+  color: #e0004d;
+}
+
+.footer {
+  text-align: center;
+  padding: 1rem 0;
+  background: #eee;
+  font-size: 0.9rem;
+  color: #666;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+
+  * {
+    font-size: 12px;
+  }
+
+.logo img {
+  width: 90px;
+  height: 15px;
+}
+.language-select,.language-select select {
+    font-size: 0.7rem;
+}
+
+.hero h1 {
+  font-size: 1.5rem;
+}
+.hero p {
+  margin: 0.5rem 0;
+  font-size: 0.7rem;
+}
+.hero span {
+    font-size: 0.4rem;
+}
+.btn {
+  padding: 0.50rem 1rem;
+  border-radius: 20px;
+}
+
+  .stats {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .feature {
+    flex-direction: column;
+    align-items: center;
+    text-align: justify;
+    padding: 2rem;
+    font-size: 12px;
+  }
+  .exchange {
+  flex-direction: column-reverse;
+}
+
+.stats h3 {
+  font-size: 12px;
+}
+}
