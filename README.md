@@ -16,7 +16,7 @@ live demo: <a href="https://drive.google.com/file/d/1fE4FZ45BiR6iQXXYS3ccxMDlsKw
 
 **2.Portfolio Page**
 
-A personal portfolio with the basic skills in CSS and HTML.<br>
+My personal portfolio with the basic skills using JS, CSS and HTML.<br>
 live demo: <a href="https://drive.google.com/file/d/1O_uk95OTB9NAFIpYIBag4XeZPNfPJTZh/view?usp=drive_link">[cick here]</a>
 
 **3.Temperature converter website**
@@ -37,17 +37,17 @@ live demo: <a href="https://drive.google.com/file/d/1MmzpdkeRbKIzzLz-PzpLtkkHzDX
 **1.Calculator Web Application**
 
 A simple and responsive calculator built using HTML, CSS, and JavaScript. It supports basic arithmetic operations and offers a clean, modern user interface.<br>
-live demo: <a href="#">[cick here]</a>
+live demo: <a href="https://drive.google.com/file/d/1WvqOimX911ZknS3FuL4MC1bA7PmARQfa/view?usp=drive_link">[cick here]</a>
 
 **2.Steve Jobs Tribute Page**
 
 A glowing tribute page designed to honor a notable figure, with visually appealing sections for about, and timelines. Fully responsive for all screen sizes.<br>
-live demo: <a href="#">[cick here]</a>
+live demo: <a href="https://drive.google.com/file/d/1bzOu2gAyX67UlGQ8kwWv7YTkivWHu68u/view?usp=drive_link">[cick here]</a>
 
 **3.To-Do List Web App**
 
-A simple and responsive Landing page built using HTML, CSS.<br>
-live demo: <a href="#">[cick here]</a>
+A basic to-do app that enables a user to add daily tasks. The users to add new items to a list, and items added to a list. Also delete and modified and mark as a completed tasked. To-Do web appbasically using HTML, CSS and JS.<br>
+live demo: <a href="https://drive.google.com/file/d/1aLrTNVEAq-TOgEG_eGnxQDAbMyiDQu1E/view?usp=drive_link">[cick here]</a>
 
 **4.Secure Login System**
 
