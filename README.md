@@ -17,7 +17,7 @@ live demo: <a href="https://drive.google.com/file/d/1fE4FZ45BiR6iQXXYS3ccxMDlsKw
 **2.Portfolio Page**
 
 A personal portfolio with the basic skills in CSS and HTML.<br>
-live demo: <a href="#">[cick here]</a>
+live demo: <a href="https://drive.google.com/file/d/1O_uk95OTB9NAFIpYIBag4XeZPNfPJTZh/view?usp=drive_link">[cick here]</a>
 
 **3.Temperature converter website**
 
@@ -30,7 +30,7 @@ Dropdown menu for the user to choose if they are inputting in Celsius or Fahrenh
 "Convert" button to trigger the temperature conversion
 
 Display area for the final converted temperature and unit<br>
-live demo: <a href="#">[cick here]</a>
+live demo: <a href="https://drive.google.com/file/d/1MmzpdkeRbKIzzLz-PzpLtkkHzDXFl6A6/view?usp=drive_link">[cick here]</a>
 
 **Level 2:**
 
