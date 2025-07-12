@@ -51,5 +51,5 @@ live demo: <a href="https://drive.google.com/file/d/1aLrTNVEAq-TOgEG_eGnxQDAbMyi
 
 **4.Secure Login System**
 
-A user authentication system with login, registration, home page using PHP,html, css, js and session.<br>
-live demo: <a href="#">[cick here]</a>
+A user authentication system with login, registration, logout and home page using PHP, HTML, CSS, JS and Session. Using Session we can check user already login or not, if login then redirected to home page either goto sign up page. <br>
+live demo: <a href="https://drive.google.com/file/d/1zJYF7W0kxm8gTRf4h6WxP8f7bpnqzNVX/view?usp=drive_link">[cick here]</a>
